@@ -1,6 +1,7 @@
 ## Let and const
 
 > Up until now, the only way to declare a variable in javaScript was to use the keyword var.
+
 > In ES6, there are two new ways to declare variables in javascript: let and const.
 
 ```

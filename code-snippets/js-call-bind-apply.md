@@ -1,7 +1,9 @@
 ## Call, bind and apply
 
 > call (Function.prototype.call) and apply(Function.prototype.apply) is used to invoke the function immediately.
+
 > bind (Function.prototype.bind) method creates a new function and sets the this keyword to the specified object, which can be called ater in certain events when it's useful.
+
 > call, bind and apply methods are used to set `this` keyword independent of how the function is called.
 
 ```
