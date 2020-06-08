@@ -5,7 +5,12 @@
 
 ## Code Snippets
 
+
 * JS Basics [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-basics.md)
 * Hoisting [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-hoisting.md)
 * This [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-this.md)
 * Use strict [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-use-strict.md)
+
+
+* Let and const [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-let-const.md)
+* Call, bind and apply [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-call-bind-apply.md)
