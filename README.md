@@ -16,3 +16,8 @@
 
 * Let and const [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-let-const.md)
 * Call, bind and apply [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-call-bind-apply.md)
+
+
+> Session 3
+
+* Arrow function [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-arrow-function.md)
