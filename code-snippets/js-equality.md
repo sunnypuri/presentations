@@ -137,6 +137,18 @@ if(condition){
 }
 ```
 
+**Second way:**
+
+**!** - it will give true for all falsy value
+
+```
+!undefined  // true
+!NaN        // true
+!-0         // true
+```
+
+*Examples*
+
 ```
 var friends = ['Mike', 'Tom', 'Ross'];
 
@@ -153,18 +165,6 @@ console.log(Boolean(new Boolean(false)));
 console.log(1 < 2 < 3);
 console.log(3 > 2 > 1);
 ```
-
-
-**Second way:**
-
-**!** - it will give true for all falsy value
-
-```
-!undefined  // true
-!NaN        // true
-!-0         // true
-```
-
 
 ---
 
