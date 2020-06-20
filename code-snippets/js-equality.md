@@ -200,11 +200,11 @@ The Object.is() method determines whether two values are the same value.
 console.log(NaN == NaN);
 
 console.log(0 == -0);
-console.log(0 === -0);
 console.log(true == 1);
 console.log(5 == "5");
 console.log(undefined == null);
 
+console.log(0 === -0);
 ```
 
 ```
