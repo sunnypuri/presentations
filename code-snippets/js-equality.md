@@ -138,3 +138,53 @@ if(booleanValue){
 !NaN        // true
 !-0         // true
 ```
+
+
+---
+
+### NaN (Not a number or invalid number)
+
+```
+console.log(NaN);
+console.log(NaN + 1);
+console.log("ten" - 5);
+console.log("sunny"/"bar");
+console.log(undefined + 1);
+```
+
+```
+console.log(NaN == NaN);
+```
+
+**isNaN** converts the argument to a Number and returns true if the resulting value is NaN.
+
+```
+console.log(isNaN(NaN));
+console.log(isNaN("hello"));
+console.log(isNaN(undefined + 1));
+
+console.log(isNaN("5"));
+console.log(isNaN(12));
+console.log(isNaN(10/0));
+```
+
+
+**Number.isNaN** does not convert the argument; it returns true when the argument is a Number and is NaN.
+
+
+```
+console.log(Number.isNaN(NaN));
+console.log(Number.isNaN("hello"));
+console.log(Number.isNaN(undefined + 1));
+
+console.log(Number.isNaN("5"));
+console.log(Number.isNaN(12));
+console.log(Number.isNaN(10/0));
+```
+
+```
+console.log(Number.isNaN(Number("hello")));
+console.log(Number.isNaN("foo"/"bar"));
+```
+
+---
