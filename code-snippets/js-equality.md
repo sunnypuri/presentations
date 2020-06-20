@@ -250,11 +250,12 @@ console.log(Object.is(undefined, null));
 
 ---
 
-
 ### Equality Comparison chart
 
 ![Equality Comparison chart](images/comparison-chart.png)
 
+
+#### Quizzes
 
 ```
 console.log(undefined == undefined);
@@ -266,4 +267,12 @@ console.log(0 == false);
 console.log("false" == false);
 console.log("0" == false);
 console.log(true == 5);
+
+console.log(0 == false);
+console.log("" == false);
+console.log(!!"true" == !!"false")
+console.log(null == false);
+console.log(!"null" == false);
 ```
+
+---
