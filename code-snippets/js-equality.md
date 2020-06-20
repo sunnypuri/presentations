@@ -126,13 +126,28 @@ Apart from falsy values, rest everything is true
 **First way:**
 
 ```
-if(booleanValue){
+if(condition){} - Implicit coerce to boolean
+```
+
+```
+if(condition){
     console.log('Truthy');
 }else{
     console.log('Falsy');
 }
 ```
 
+```
+var friends = ['Mike', 'Tom', 'Ross'];
+
+while(friends.length){   // friends.length > 0
+    console.log(friends.pop());
+}
+```
+
+```
+console.log(Boolean(new Boolean(false))); 
+```
 
 **Second way:**
 
