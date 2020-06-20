@@ -190,6 +190,10 @@ console.log(Number.isNaN(Number("hello")));
 console.log(Number.isNaN("foo"/"bar"));
 ```
 
+```
+console.log("b" + "a" + +"a" + "a");
+```
+
 ---
 
 ### Object.is
