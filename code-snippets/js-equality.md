@@ -154,6 +154,9 @@ console.log(undefined + 1);
 
 ```
 console.log(NaN == NaN);
+console.log(NaN == null);
+console.log(NaN == 0);
+console.log(NaN == undefined);
 ```
 
 **isNaN** converts the argument to a Number and returns true if the resulting value is NaN.
