@@ -216,4 +216,11 @@ console.log(Object.is(5, "5"));
 console.log(Object.is(undefined, null));
 ```
 
+![Same Value Algorithm](images/algo-same-value.png)
+
 ---
+
+
+### Equality Comparison chart
+
+![Equality Comparison chart](images/comparison-chart.png)
