@@ -54,6 +54,11 @@ Process of converting value from one type to another
 | "" + -Infinity  | "-Infinity"  |
 
 
+```
+console.log(10 + "10" + 10 + 10);
+```
+
+
 #### Number
 
 > Explicit number conversion
