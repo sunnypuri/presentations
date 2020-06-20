@@ -254,3 +254,16 @@ console.log(Object.is(undefined, null));
 ### Equality Comparison chart
 
 ![Equality Comparison chart](images/comparison-chart.png)
+
+
+```
+console.log(undefined == undefined);
+console.log(null == null);
+console.log(undefined == null);
+console.log(5 == "5");
+console.log(1 == true);
+console.log(0 == false);
+console.log("false" == false);
+console.log("0" == false);
+console.log(true == 5);
+```
