@@ -89,3 +89,52 @@ Process of converting value from one type to another
 | +Infinity  | Infinity   |
 | +(-Infinity)  | -Infinity   |
 
+
+#### Boolean
+
+**Falsy values** -  "", null, undefined, 0, -0, false, NaN
+
+> Explicit boolean conversion
+
+|         |          |
+| ------------- |-------------|
+| Boolean("")  | false   |
+| Boolean(null)  | false   |
+| Boolean(undefined)  | false   |
+| Boolean(0)  | false   |
+| Boolean(-0)  | false   |
+| Boolean(false)  | false   |
+| Boolean(NaN)  | false   |
+
+Apart from falsy values, rest everything is true
+
+|         |          |
+| ------------- |-------------|
+| Boolean(Infinity)  | true   |
+| Boolean(function(){})  | true   |
+| Boolean([0])  | true   |
+| Boolean({})  | true   |
+
+
+> Implicit boolean conversion
+
+**First way:**
+
+```
+if(booleanValue){
+    console.log('Truthy');
+}else{
+    console.log('Falsy');
+}
+```
+
+
+**Second way:**
+
+**!** - it will give true for all falsy value
+
+```
+!undefined  // true
+!NaN        // true
+!-0         // true
+```
