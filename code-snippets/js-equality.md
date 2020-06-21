@@ -419,4 +419,23 @@ console.log([] == ![]);
 console.log([] !== []);
 ```
 
+
+```
+console.log(null == 0);
+console.log(null > 0);
+console.log(null < 0);
+
+console.log(null >= 0);
+console.log(null <=0);
+```
+
+```
+null >= 0;
+!(null < 0);
+!(+null < 0);
+!(0 < 0);
+!false;
+true;
+```
+
 ---
