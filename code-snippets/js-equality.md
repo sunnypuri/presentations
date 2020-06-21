@@ -395,3 +395,28 @@ console.log(x.valueOf());                    // 1592713080568
 **Step 2:** toString();
 
 ---
+
+### Quizzes
+
+```
+console.log([1,2,3] == [1,2,3]);
+console.log("1,2,3" == [1,2,3]);
+
+console.log([] == []);
+console.log(0 == []);
+console.log("" == []);
+
+
+console.log("" == []);
+console.log(false == []);
+console.log(-0 == []);
+
+console.log(1 == [true]);
+```
+
+```
+console.log([] == ![]);
+console.log([] !== []);
+```
+
+---
