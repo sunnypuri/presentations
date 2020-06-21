@@ -381,18 +381,27 @@ console.log(x.valueOf());                    // 1592713080568
 ### Conversion Rule
 
 
-> **Object to String**
+**Object to String**
 
 *Step 1:* toString();
 
 *Step 2:* valueOf();
 
 
-> **Object to Number**
+**Object to Number**
 
-**Step 1:** valueOf();
+*Step 1:* valueOf();
 
-**Step 2:** toString();
+*Step 2:* toString();
+
+
+**Trick**
+
+```
+Number({ toString: () => 2, valueOf: () => 1 }); // -> 1
+
+String({ toString: () => 2, valueOf: () => 1 }); // -> 2
+```
 
 ---
 
