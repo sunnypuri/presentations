@@ -12,6 +12,7 @@
 * This [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-this.md)
 * Use strict [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-use-strict.md)
 
+
 > Session 2
 
 * Let and const [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-let-const.md)
@@ -21,3 +22,15 @@
 > Session 3
 
 * Arrow function [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-arrow-function.md)
+
+
+> Session 4
+
+* Auto boxing [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-auto-boxing.md)
+* Coercion and Equality (== && ===) [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-equality.md)
+
+
+
+<br />
+
+[LinkedIn](http://linkedin.com/in/sunnypuri) | [Instagram](https://www.instagram.com/devkode.in/) | [Website](http://learn.devkode.in/)
