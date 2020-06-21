@@ -399,6 +399,9 @@ console.log(x.valueOf());                    // 1592713080568
 ### Quizzes
 
 ```
+console.log(function(){} == function(){});
+console.log("function(){}" == function(){});
+
 console.log([1,2,3] == [1,2,3]);
 console.log("1,2,3" == [1,2,3]);
 
