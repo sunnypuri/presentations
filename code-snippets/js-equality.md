@@ -395,7 +395,6 @@ console.log(x.valueOf());                    // 1592713080568
 *Step 2:* toString();
 
 
-**Trick**
 
 ```
 Number({ toString: () => 2, valueOf: () => 1 }); // -> 1
@@ -449,5 +448,13 @@ null >= 0;
 !false;
 true;
 ```
+
+---
+
+![Abstract Equality Algorithm](images/algo-abstract-equality.png)
+
+---
+
+![Strict Equality Algorithm](images/algo-strict-equality.png)
 
 ---
