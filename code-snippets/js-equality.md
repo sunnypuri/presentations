@@ -276,3 +276,63 @@ console.log(!"null" == false);
 ```
 
 ---
+
+### toString()
+
+**String** - returns the value of a String object
+
+```
+var name = "Sunny";
+name.toString();        // "Sunny"
+```
+
+**Number** - convert a number to a string
+
+```
+var x = 10;
+x.toString();           // "10"
+```
+
+**Boolean** - convert a boolean to a string
+
+```
+var x = true;
+x.toString();           // "true"
+```
+
+**Array** - converts every element into string and join with ,
+
+```
+var a = [1,2,3];
+a.toString();           // "1,2,3"
+```
+
+**Date** - returns human readable format of date and time
+
+```
+var a = new Date();
+a.toString();           // "Sat Jun 20 2020 15:35:34 GMT+0530 (India Standard Time)"
+```
+
+**Function** - returns function definition in form of string
+
+```
+var a = function(){};
+a.toString();           // "function(){}"
+```
+
+**Object** - Always returns [object Object]
+
+```
+var a = {x: 10};
+a.toString();           // "[object Object]"
+```
+
+**Regular expression** - toString returns same value as regex pattern
+
+```
+var pattern = /^\d{1,5}$/;
+pattern.toString();     // "/^\d{1,5}$/"
+```
+
+---
