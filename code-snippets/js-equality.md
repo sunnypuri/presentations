@@ -279,6 +279,8 @@ console.log(!"null" == false);
 
 ### toString()
 
+> String / Number / Boolean - will return same value in case of toString
+
 **String** - returns the value of a String object
 
 ```
@@ -333,6 +335,44 @@ a.toString();           // "[object Object]"
 ```
 var pattern = /^\d{1,5}$/;
 pattern.toString();     // "/^\d{1,5}$/"
+```
+
+---
+
+### valueOf() 
+It convert wrapper object to its primitive value
+
+**String**
+
+```
+var x = new String("Sunny");
+console.log(x);                 // String {"Sunny"}
+console.log(x.valueOf());       // Sunny
+```
+
+**Number**
+
+```
+var x = new Number(10);
+console.log(x);                 // Number {10}
+console.log(x.valueOf());       // 10
+```
+
+**Boolean**
+
+```
+var x = new Boolean(true);
+console.log(x);                 // Boolean {true}
+console.log(x.valueOf());       // true
+```
+
+> Array / Function / Object - will return same object in case of valueOf
+
+**Date** - it returns timestamp
+
+```
+var x = new Date();
+console.log(x.valueOf());                    // 1592713080568
 ```
 
 ---
