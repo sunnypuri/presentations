@@ -29,8 +29,11 @@
 * Auto boxing [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-auto-boxing.md)
 * Coercion and Equality (== && ===) [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-equality.md)
 
+> Session 4
+
+* Objects [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-objects.md)
 
 
 <br />
 
-[LinkedIn](http://linkedin.com/in/sunnypuri) | [Instagram](https://www.instagram.com/devkode.in/) | [Website](http://learn.devkode.in/)
+[LinkedIn](http://linkedin.com/in/sunnypuri) | [Instagram](https://www.instagram.com/devkode.io/) | [Website](http://learn.devkode.in/)
