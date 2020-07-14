@@ -29,7 +29,7 @@
 * Auto boxing [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-auto-boxing.md)
 * Coercion and Equality (== && ===) [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-equality.md)
 
-> Session 4
+> Session 5
 
 * Objects [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-objects.md)
 

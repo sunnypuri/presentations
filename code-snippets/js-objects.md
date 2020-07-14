@@ -1,3 +1,5 @@
+## Objects
+
 ### Data types
 
 Primitive	       number, string, boolean, undefined, null, bigInt, symbol
