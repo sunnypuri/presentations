@@ -34,6 +34,12 @@
 * Objects [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-objects.md)
 
 
+> Session 6 (Functional JS)
+
+* First class function [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-first-class-function.md)
+
+
+
 <br />
 
 [LinkedIn](http://linkedin.com/in/sunnypuri) | [Instagram](https://www.instagram.com/devkode.io/) | [Website](http://learn.devkode.in/)
