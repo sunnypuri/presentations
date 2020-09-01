@@ -38,6 +38,10 @@
 
 * First class function [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-first-class-function.md)
 
+* Closure [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-closure.md)
+
+* Method chaining [View](https://github.com/SunnyPuri/presentations/blob/master/code-snippets/js-method-chaining.md)
+
 
 
 <br />
